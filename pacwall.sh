@@ -162,12 +162,7 @@ compile_graph() {
 }
 
 use_wal_colors() {
-    if [[ ! -f ~/.cache/wal/colors.sh ]]; then
-        echo 'Run pywal first' >&2
-        exit 1
-    fi
-
-    source ~/.cache/wal/colors.sh
+    source /home/xon/.cache/wal/colors.sh
     echo 'Using pywal colors:'
 
     # you can preview these colors in ~/.cache/wal/colors.json
