@@ -382,7 +382,7 @@ done
 shift $((OPTIND - 1))
 
 if [[ -z $XDG_DATA_HOME ]]; then
-    XDG_DATA_HOME=~/.local/share
+    XDG_DATA_HOME=/home/xon/.local/share
 fi
 XDGOUT="${XDG_DATA_HOME}/wallpapers/pacwall/pacwall${BACKGROUND}.png"
 
