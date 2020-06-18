@@ -8,4 +8,4 @@ Target = *
 [Action]
 Description = Regenerating the wallpaper...
 When = PostTransaction
-Exec = /home/xon/.local/bin/pacwall -DWLS 1920x1080 -r 0.6 -o /tmp/pacwall.png
+Exec = /usr/bin/pacwall -WL -o /home/xon/pics/pacwall.png
