@@ -15,7 +15,7 @@ OOUTLINE=2
 UOUTLINE=3
 RANKSEP=0.7
 
-OUTPUT="$PWD/pacwall.png"
+OUTPUT="/home/xon/pics/pacwall.png"
 STARTDIR="$PWD"
 
 prepare() {
